@@ -30,6 +30,7 @@ public class SpringCoreApplication {
 		 */
 		
 		Class c=Class.forName("com.example.SpringCore.Subjects");
+		//testing git
 		Object b=c.newInstance();
 		
 		c.getDeclaredConstructors();
